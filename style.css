@@ -1,0 +1,28 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+h1{
+    background-color: aqua;
+    color: blue;
+    font-family: verdana;
+    font-size: 200%;
+    text-align: center;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+}
+h2{
+    color: green;   
+}
+.title{
+    color: blue;
+}
+.title1{
+    color: green;
+}
