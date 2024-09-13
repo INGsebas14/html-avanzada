@@ -2,6 +2,9 @@ body{
     background-color: #000;
     color: #fff;
 }
+main{
+  width: 100%;
+}
 h1{
     background-color: aqua;
     color: blue;
@@ -38,3 +41,43 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: red;
   }
+table, th, td {
+    border: 1px solid red;
+    color: red;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+ul{
+  list-style-type: disc;
+}
+div{
+    background-color:black;
+    color:rgba(25, 136, 201, 0.363);
+    padding:20px;
+    width:300px;
+    margin:auto;
+}
+.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.mycontainer div {
+  width:33%;
+  float:left;
+}
+iframe {
+  height: 300px; 
+  width: 100%;
+  background-color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  main{
+    width: 100%;
+  }
+}
